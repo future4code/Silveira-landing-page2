@@ -1,0 +1,30 @@
+#intro{
+    color: white;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/pexels-andrea-piacquadio-840996.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro h1{
+    font-size: 50px
+}
+
+#display{  
+    background-color: rgb(46, 50, 55);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+#display div{
+    position: relative;
+    bottom: 40px;
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 300px;
+}

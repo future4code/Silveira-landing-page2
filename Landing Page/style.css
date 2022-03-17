@@ -1,17 +1,73 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
+
+
+#logo{
+    background-color:rgb(218, 229, 232); ;
+    text-align: center;
 }
 .cabecalho{
+    position: sticky ;
+    top: 0px;
     background-color: rgb(218, 229, 232);
+    text-align: center;  
+}
+
+#logo img{
+    width: 300px;
+}
+
+.cabecalho ul{
+    margin: auto;
+    width: 700px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho li{
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.cabecalho a{
     color: rgb(72, 69, 60);
-    
+    text-decoration: none;
 }
-section{
-    background-color: rgb(46, 50, 55);
-    height: 1000px;
+
+.cabecalho a:hover{
+    color: rgb(126, 121, 106);
 }
+
 footer{
-    background-color: rgb(218, 229, 232);
+    text-align: center;
+    background-color: rgb(200, 224, 231);
+}
+
+footer h4{
+    font-weight: 400px;
+}
+
+footer a{
+    width: 80px;
+    height: 80px;
+}
+
+footer img{
+    margin: 10px;
+    width: 50px;
+}
+
+#fb{
+    width: 47px;
+}
+
+#yt{
+    margin: 5px;
+    width: 60px;
 }
