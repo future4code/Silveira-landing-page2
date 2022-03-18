@@ -4,10 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: rgb(46, 50, 55);
+}
+
 
 
 #logo{
-    background-color:rgb(218, 229, 232); ;
+    background-color:rgb(218, 229, 232);
     text-align: center;
 }
 .cabecalho{
@@ -46,7 +50,7 @@
 
 footer{
     text-align: center;
-    background-color: rgb(200, 224, 231);
+    background-color: rgb(218, 229, 232);
 }
 
 footer h4{
@@ -70,4 +74,28 @@ footer img{
 #yt{
     margin: 5px;
     width: 60px;
+}
+
+@media only screen and (max-width:500px){
+
+    .cabecalho ul{
+        margin: auto;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cabecalho{
+        position: static;
+        background-color: rgb(218, 229, 232);
+        text-align: center;  
+    }
+
+    .cabecalho li{
+        margin: 10px;
+        font-weight: bolder;
+        font-size: 30px;
+    }
 }
