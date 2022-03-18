@@ -1,0 +1,52 @@
+.formulario{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: solid 2px;
+    width: 500px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.formulario p{
+font-size:20px;
+}
+.campo-info{
+    margin: 30px;
+}
+.campo-info input{
+    height: 30px;
+    width: 220px;
+    margin-left: 10px;
+}
+.campo-genero{
+    margin: 30px;
+    display: flex;
+    flex-direction:column;
+}
+.campo-genero input{
+    margin-left:10px;
+}
+.campo-genero div{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+#text{ 
+    text-align: center;
+    margin: auto;
+}
+#text textarea{
+    width: 500px;
+    height: 180px;
+    border-radius: 10px;
+}
+button{
+    width: 350px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+

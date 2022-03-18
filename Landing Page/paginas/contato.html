@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +12,9 @@
     <!--Styles-->
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../styles/contato.css">
-    <title>Document</title>
+    <title>Contato</title>
 </head>
+
 <body>
     <div id="logo">
         <img src="../media/4comfort.png" alt="Logo 4Confort">
@@ -26,15 +28,41 @@
         </ul>
     </header>
 
-    <section>
+    <section class="formulario">
+        <h1 id="titulo">Mande um E-mail para a 4Confort</h1>
+        <p id="subtitulo">Complete com as suas informações</p>
+    <form>
+        <div class="campo-info">
+            <input placeholder="Nome" type="text" name="nome" id="nome" required>
+            <input placeholder="Email" type="email" name="email" id="email" required>
+        </div>
+        <div class="campo-genero">
+            <label>Qual seu gênero?</label>
+            <div>
+                <input type="radio" name="genero" value="masculino" checked> Masculino
+           
+                <input type="radio" name="genero" value="feminino"> Feminino
+          
+                <input type="radio" name="genero" value="nda"> Outro
+            </div>
+        </div>
 
-    </section>
+        <div id="text">
+            <textarea placeholder="Digite o conteudo do seu email aqui..." row="6" style="width: 26em;" id="mensagem" name="mensagem"></textarea>
+        </div>
+        <button class="botao" type="submit">Enviar</button>
+    </form>
+</section>
 
     <footer>
         <h4>Visite nossas redes sociais</h4>
-         <a target="_blank" href="https://www.facebook.com/"><img id="fb" src="../media/facebook.png" alt="Link Facebook"></a>
-         <a target="_blank" href="https://www.instagram.com/accounts/login/"><img src="../media/instagram.png" alt="Link Instagram"></a>
-         <a target="_blank" href="https://www.youtube.com/"><img id="yt" src="../media/youtube.png" alt="Link youtube"></a>
+        <a target="_blank" href="https://www.facebook.com/"><img id="fb" src="../media/facebook.png"
+                alt="Link Facebook"></a>
+        <a target="_blank" href="https://www.instagram.com/accounts/login/"><img src="../media/instagram.png"
+                alt="Link Instagram"></a>
+        <a target="_blank" href="https://www.youtube.com/"><img id="yt" src="../media/youtube.png"
+                alt="Link youtube"></a>
     </footer>
 </body>
+
 </html>
