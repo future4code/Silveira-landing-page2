@@ -1,7 +1,14 @@
 .sobre{
     color: rgb(72, 69, 60);
     text-align: center;
+    margin: 20px 20%;
 }
 .missao{
     color: rgb(72, 69, 60);
+    text-align: center;
+    padding-top: 20px;
+}
+.lista{
+    margin: auto;
+    width: 200px;
 }
