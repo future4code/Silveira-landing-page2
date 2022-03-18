@@ -1,7 +1,7 @@
 Projeto Landing Page da empresa fictícia 4Confort
 
 Link do Surge:
-JBE4Confort.surge.sh
+  https://Jbe4confort.surge.sh/#
 
 Equipe:
 -Adernam Bauli
