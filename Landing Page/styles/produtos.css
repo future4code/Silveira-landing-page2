@@ -25,3 +25,12 @@
     box-shadow: 5px 5px 8px rgba(201, 225, 231, 0.603);
 }
 
+@media screen and (max-width:500px) {
+    #produtos{
+        background-color: rgb(46, 50, 55);
+        display: grid;
+        grid-template-columns:  1fr ;
+        grid-template-rows: repeat(12,1fr)  ;
+    }
+}
+
