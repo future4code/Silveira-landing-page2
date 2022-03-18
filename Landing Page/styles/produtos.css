@@ -1,8 +1,11 @@
 #produtos{
-    background-color: rgb(46, 50, 55);
+    background-color: rgb(255, 255, 255);
+    margin: auto;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr  ;
+    border-radius: 20px;
+    width: 97%;
 }
 
 .card{
@@ -22,13 +25,14 @@
 }
 
 .card img:hover{
-    box-shadow: 5px 5px 8px rgba(201, 225, 231, 0.603);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.603);
 }
 
 @media screen and (max-width:500px) {
     #produtos{
         background-color: rgb(46, 50, 55);
         display: grid;
+        width: 100%;
         grid-template-columns:  1fr ;
         grid-template-rows: repeat(12,1fr)  ;
     }

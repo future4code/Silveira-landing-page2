@@ -11,6 +11,8 @@
     <!--Styles-->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/produtos.css">
+    <link rel="stylesheet" href="./styles/contato.css">
 
     <title>4Confort</title>
 </head>
@@ -20,23 +22,137 @@
     </div>
     <header class="cabecalho">
         <ul>
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="./paginas/sobre.html">Sobre nós</a> </li>
-            <li> <a href="./paginas/contato.html">Contato</a> </li>
-            <li> <a href="./paginas/produtos.html">Produtos</a> </li>
+            <li> <a href="#">Inicio</a> </li>
+            <li><a href="#copy">Quem Somos</a></li>
+            <li> <a href="#produtos">Produtos</a> </li>
+            <li> <a href="#sobreNos">Nossa Missão</a> </li>
+            <li> <a href="#formulario">Contato</a> </li>
+            
         </ul>
     </header>
 
     <section id="intro">
-        <h1>loja de tenis</h1>
+        <h1>Casual | Moderno | Clean</h1>
     </section>
 
-    <section id="display">
-        <div>
-
+    <section id="copy">
+        <h1>Sobre a 4Confort</h1>
+        <h3>
+            "Você está na 4Confort, o melhor lugar para encontrar o seu tênis. Você sabia que nós trabalhamos apenas com os fornecedores mais confiáveis do mercado? Pois é! 
+            Isso significa que todos os produtos que você encontrar no nosso site certamente serão da mais alta qualidade. Vá em frente!
+            Aqui na 4Confort, nós acreditamos em um serviço de atendimento aos clientes de altíssima qualidade – 
+            mas também somos da opinião de que todos os nossos clientes merecem vivenciar uma experiência de compra inesquecível, 
+            e é por isso que tentamos proporcionar produtos excelentes a um preço acessível.
+            Nosso objetivo aqui, é oferecer um calçado realmente especial. É por isso que estamos sempre atrás das tendências mais recentes do mercado – 
+            e trabalhamos apenas com os produtos da mais alta qualidade. Tudo o que queremos é proporcionar experiências inesquecíveis aos nossos clientes a preços amigáveis, 
+            que caibam no bolso de qualquer um, e essa tem sido a nossa missão desde que começamos a nossa história, lá em 2019. 
+            Vocês, clientes, são a nossa prioridade. Vamos traçar, juntos, uma nova história!"
+        </h3>
+    </section>
+    <h1 class="title">Conheça alguns dos nossos produtos</h1>
+<section id="container">
+    <div id="produtos">
+        <div class="card">
+            <a href=""><img src="./media/tenis8mod1.avif" alt=""></a>
         </div>
-    </section>
 
+        <div class="card">
+            <a href=""><img src="./media/tenis9mod1.avif" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis10mod1.avif" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis4mod1.jpg" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis5mod2.avif" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis11mod2.avif" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis12mod2.avif" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis13mod2.jpg" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis3mod3.avif" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis14mod3.avif" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis15mod3.avif" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href=""><img src="./media/tenis16mod3.avif" alt=""></a>
+        </div>
+    </div>
+</section>
+<h1 class="title">Sobre Nós</h1>
+ <section id="sobreNos">
+     <hr>  
+    <div class="missao">
+        <h3>NOSSA MISSÃO</h3>
+        <p>Desenvolver, produzir e comercializar produtos e serviços destinados a entregar a você um maior conforto, com qualidade e inovação, 
+            visando a satisfação do cliente, contribuindo para a melhoria da qualidade de vida, respeitando o indivíduo, a sociedade e o meio ambiente.</p>
+           
+        <h3>NOSSA VISÃO</h3>
+        <p>Ser uma empresa reconhecida pela qualidade de nossos produtos e de nosso atendimento, com notoriedade no mercado de instrumentação ambiental, 
+            comprometida com a satisfação de nossos clientes, fornecedores e colaboradores.</p>
+           
+            <h3>NOSSOS VALORES</h3>
+    </div>
+    <div class="lista">
+        <ul>
+            <li>Integridade;</li>
+            <li>Comprometimento;</li>
+            <li>Valorização humana;</li>
+            <li>Superação dos resultados;</li>
+            <li>Melhoria contínua;</li>
+            <li>Inovação;</li>
+            <li>Sustentabilidade.</li>
+        </ul>
+    </div>
+    <hr>
+ </section>
+ <h1 class="title">Contato</h1>
+
+ <section id="formulario">
+    <h1 id="titulo">Mande um E-mail para a 4Confort</h1>
+    <p id="subtitulo">Complete com as suas informações</p>
+<form>
+    <div class="campo-info">
+        <input placeholder="Nome" type="text" name="nome" id="nome" required>
+        <input placeholder="Email" type="email" name="email" id="email" required>
+    </div>
+    <div class="campo-genero">
+        <label>Qual seu gênero?</label>
+        <div>
+            <input type="radio" name="genero" value="masculino" checked> Masculino
+            <input type="radio" name="genero" value="feminino"> Feminino
+            <input type="radio" name="genero" value="nda"> Outro
+        </div>
+    </div>
+
+    <div id="text">
+        <textarea placeholder="Digite o conteudo do seu email aqui..." row="6" id="mensagem" name="mensagem"></textarea>
+    </div>
+    <button class="botao" type="submit">Enviar</button>
+</form>
+</section>
     <footer>
     <h4>Visite nossas redes sociais</h4>
      <a target="_blank" href="https://www.facebook.com/"><img id="fb" src="./media/facebook.png" alt="Link Facebook"></a>

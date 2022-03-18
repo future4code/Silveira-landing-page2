@@ -3,16 +3,13 @@
 #intro{
     color: white;
     height: 700px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../media/pexels-pixabay-415261.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#intro h1{
-    font-size: 50px
 }
 
 #display{  
@@ -41,7 +38,7 @@
         background-image: url(../media/pexels-pixabay-415261.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 80% 10%;
+        background-position: 60% 50%;
     }
     
 }
