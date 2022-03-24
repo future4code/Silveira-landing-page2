@@ -1,0 +1,44 @@
+
+
+#intro{
+    color: white;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/pexels-pixabay-415261.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#display{  
+    background-color: rgb(46, 50, 55);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+#display div{
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    height: 300px;
+}
+
+@media only screen and (max-width:500px){
+    #intro{
+        color: white;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../media/pexels-pixabay-415261.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60% 50%;
+    }
+    
+}

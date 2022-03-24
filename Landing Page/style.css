@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: rgb(46, 50, 55);
+}
+
+.title{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(218, 229, 232);
+}
+
+#intro h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous', cursive;
+}
+
+#logo{
+    background-color:rgb(218, 229, 232);
+    text-align: center;
+}
+.cabecalho{
+    position: sticky ;
+    top: 0px;
+    background-color: rgb(218, 229, 232);
+    text-align: center;  
+}
+
+#logo img{
+    width: 300px;
+}
+
+.cabecalho ul{
+    margin: auto;
+    width: 900px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho li{
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.cabecalho a{
+    color: rgb(72, 69, 60);
+    text-decoration: none;
+}
+
+.cabecalho a:hover{
+    color: rgb(126, 121, 106);
+}
+
+#copy{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+#copy h3{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    width: 800px;
+}
+
+#copy h1{
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.missao{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+}
+.lista{
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+#sobreNos{
+   margin: 50px;
+}
+
+#sobreNos h3{
+    margin: 20px;
+ }
+
+footer{
+    text-align: center;
+    background-color: rgb(218, 229, 232);
+}
+
+footer h4{
+    font-family: 'Righteous', cursive;
+}
+
+footer a{
+    width: 80px;
+    height: 80px;
+}
+
+footer img{
+    margin: 10px;
+    width: 50px;
+}
+
+#fb{
+    width: 47px;
+}
+
+#yt{
+    margin: 5px;
+    width: 60px;
+}
+
+@media only screen and (max-width:500px){
+
+    #intro h1{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+
+    .cabecalho ul{
+        margin: auto;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cabecalho{
+        position: static;
+        background-color: rgb(218, 229, 232);
+        text-align: center;  
+    }
+
+    .cabecalho li{
+        margin: 10px;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    #copy{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #copy h3{
+        color: white;
+        font-size: 20px;
+        margin: auto;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    #copy h1{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 25px;
+    }
+
+
+    
+}
